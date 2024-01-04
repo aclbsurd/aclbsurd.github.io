@@ -24,6 +24,9 @@ body{
 .brand-nama{
     padding-top: 10px;
 }
+.brand-nama p{
+    color: var(--pr-color9);
+}
 .navbar-link{
     color: var(--pr-color9);
 }
@@ -38,9 +41,9 @@ body{
     text-transform: uppercase;
 }
  p {
-    font-size: 7px;
+    font-size: 10px;
     font-weight: 400;
-    color:var(--pr-color5);
+    color:var(--pr-color0);
     text-transform: uppercase;
 }
 .container-breadcrumb{
@@ -105,7 +108,8 @@ body{
 }
 
 .card-text {
-    letter-spacing: 0.1em;
+    color: var(--pr-color9);
+    opacity:90%;
     font-weight: 400;
     font-size: 18px;
 }
@@ -141,10 +145,6 @@ body{
 
 }
 
-.list-unstyled{
-    color: var(--pr-color);
-}
-
 .text-section h1{
     font-size: 10px;
 
@@ -166,7 +166,7 @@ body{
     background-color: var(--pr-color2);
     flex-direction: row;
     border: 0;
-    border-radius: 10px;
+    border-radius: 15px;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -211,7 +211,7 @@ footer p{
     font-weight: 500;
 }
 .list-unstyled i,a{
-    color: var(--pr-color5);
+    color: var(--pr-color2);
     text-decoration: none;
 }
 .kontak h1{
@@ -224,5 +224,8 @@ footer p{
     font-size: 10px;
 }
 .Detail a{
+    font-size: 10px;
+}
+.tambah p{
     font-size: 10px;
 }
